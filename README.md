@@ -1,6 +1,6 @@
 # Vim Motions Workshop
 
-> *You already min-max in the games you play. Now do it for your text navigation.*
+> _You already min-max in the games you play. Now do it for your text navigation._
 
 Welcome to the follow-along repo for the Vim Motions workshop.
 Each file is a level. Open them in order. Don't skip ahead.
@@ -14,10 +14,11 @@ nvim 01-modes.md
 ## Levels
 
 | File               | Topic                    | New Skills                                          |
-|--------------------|--------------------------|-----------------------------------------------------|
+| ------------------ | ------------------------ | --------------------------------------------------- |
 | `01-modes.md`      | Modes                    | `i`, `Esc`, `:w`, `:wq`, `:q!`                      |
 | `02-navigation.md` | Navigation + Multipliers | `w` `b` `e`, `f` `F`, `0` `$`, `gg` `G`, `5w` `10j` |
-| `03-combos.md`     | Verb + Noun Combos       | `ci"`, `da(`, `yiw`, `p`, `cc`, `3dd`               |
+| `03-combos.md`     | Verb + Noun Combos       | `ci"`, `da(`, `yiw`, `p`, `cc`, `3dd`, `.`          |
+| `04-search.md`     | Search + Replace         | `/pattern`, `n`, `N`, `*`, `:%s`                    |
 
 ## Emergency Exit
 

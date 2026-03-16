@@ -2,8 +2,22 @@
 
 > Vim has modes. This is the thing that confuses everyone at first.
 > Most editors only have one mode: you open the file, you type.
-> Vim separates _navigating_ from _typing_. That separation is the whole point.
+> Vim separates _navigating_ from _typing_. That separation is the _whole point_.
 > Normal mode is home base. You spend most of your time here.
+
+---
+
+## Moving Around
+
+You'll need to move your cursor to complete these quests.
+Use `hjkl` to move: `j` down, `k` up,`h` left, `l` right.
+
+`j` and `k` are right on the home row. Moving up and down lines is the most common
+thing you do while navigating code; keeping that under your fingers instead of reaching for the
+arrow keys or mouse is exactly the kind of friction vim removes.
+
+Even YouTube uses vim motions for pausing and moving forward/back in a video.
+Pause with `k`, skip forward 10s with `l`, skip backward 10s with `j`.
 
 ---
 
@@ -20,12 +34,9 @@
 
 ## Why Does This Matter?
 
-In a normal editor, every keypress either types a character or triggers a shortcut.
-You reach for the mouse constantly. You highlight with click-and-drag.
-
-In Vim, your entire keyboard is a control panel in Normal mode.
-`d` deletes. `y` copies. `w` jumps a word. No Ctrl, no Alt, no mouse.
-The speed comes from keeping your hands on the home row, always.
+In a normal editor you reach for the mouse constantly. Every edit is a context switch.
+In Vim, your entire keyboard is a control panel in Normal mode:
+`d` deletes, `y` copies, `w` jumps a word. No Ctrl, no Alt, no mouse. **Hands on the home row, always.**
 
 ---
 
@@ -42,56 +53,63 @@ The speed comes from keeping your hands on the home row, always.
 | `o` | New line below the current line |
 | `O` | New line above the current line |
 
-`o` is the one you'll reach for constantly while coding: you're on a line and want to add something below it. `o` to "Open" line below. No navigating to the end of the line first.
+`o` is the one you'll use most while coding: you're on a line and want to add something below it. No need to navigate to the end of the line first.
 
 ---
 
 ## Quest Log Entry #001
 
-The guild scribe saved the wrong status on this quest.
-Fix it using insert mode.
+Pierre's shop ledger has a mistake. Last season's seed order got marked `ABANDONED`
+but it was fulfilled. Fix it before he notices.
 
-<!-- TODO: Use `w` to hop to the word "ABANDONED" (or click there — just this once) -->
-<!-- TODO: Press `i` to enter insert mode -->
-<!-- TODO: Delete "ABANDONED" and type "COMPLETED" -->
+<!-- TODO: Use `j` to move down to the STATUS line -->
+<!-- TODO: Press `A` (append) to jump to the end of the line in insert mode -->
+<!-- TODO: Backspace over "ABANDONED" and type "COMPLETED" -->
 <!-- TODO: Press `Esc` to return to Normal mode -->
-<!-- TODO: Type `:w` and hit Enter to save -->
+<!-- TODO: Type `:w` (write) and hit Enter to save -->
 
 ```
-QUEST: The Missing Shipment
-DATE:  2026-03-01
-STATUS: COMPLETE
+DELIVERY LOG — Pierre's General Store
+DATE:      Spring 14, Year 2
+ITEM:      Parsnip Seeds (x50)
+STATUS:    ABANDONED
 
-The cargo was recovered from the bandit camp north of Millhaven.
-All 12 crates accounted for. Reward has been paid out.
-This quest is complete and should be marked as such.
+Notes: Order arrived from Zuzu City. All 50 seed packets accounted for.
+       Payment processed. Stocked on shelves same day.
+       This order was fulfilled and should be marked as such.
 ```
 
 ---
 
 ## Quest Log Entry #002
 
-The reward is missing. Add it.
+Robin finished your barn upgrade but forgot to log the materials cost.
+Mayor Lewis needs it for the town budget. Add it before the next council meeting.
 
-<!-- TODO: Navigate to the empty line after "REWARD:" -->
-<!-- TODO: Press `i`, type the reward: 1200 gold + Enchanted Cloak -->
+<!-- TODO: Navigate to the "MATERIALS:" line -->
+<!-- TODO: Press `o` to open a new line below it; you drop straight into insert mode -->
+<!-- TODO: Type the materials: "- 550g, 150 Wood, 100 Stone" -->
 <!-- TODO: Press `Esc`, then `:w` to save -->
 
 ```
-QUEST: Slay the Wyvern of Black Crag
-DATE:  2026-03-04
-STATUS: COMPLETED
-REWARD:
+CONSTRUCTION LOG — Robin's Carpentry
+DATE:      Summer 8, Year 2
+PROJECT:   Big Barn Upgrade
+STATUS:    COMPLETED
+MATERIALS:
 
-Notes: Completed by a party of three. No casualties. Wyvern confirmed dead.
-The village of Black Crag is safe. They want a monument built apparently.
+Notes: Completed in 3 days. Client was present for final walkthrough.
+       New loft storage installed. Animals seem happy with the extra space.
 ```
 
 ---
 
 ## Checkpoint
 
-- [ ] Can enter insert mode with `i`
+_Check the boxes with `r` (replace) `x`_
+
+- [ ] Can enter insert mode with `i`, `a`, and `o`
+- [ ] Know the difference: `i` (before cursor), `a` (after), `o` (new line below)
 - [ ] Can return to Normal mode with `Esc`
 - [ ] Can save with `:w`
 - [ ] Know that `Esc` is always the way back to safety

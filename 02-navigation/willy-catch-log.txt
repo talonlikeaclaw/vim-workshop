@@ -1,0 +1,17 @@
+WILLY'S SEASONAL CATCH LOG — Year 3
+Format: date | species | size | weight | location | weather | grade | notes
+
+Sp-04 | species:Sardine        | size:8in   | weight:0.3lbs | loc:ocean,pier    | weather:sunny | grade:C | nothing special
+Sp-07 | species:Catfish        | size:31in  | weight:4.1lbs | loc:river,south   | weather:rainy | grade:A | personal best this season
+Sp-11 | species:Shad           | size:14in  | weight:1.2lbs | loc:river,north   | weather:windy | grade:B | released after measurement
+Sp-14 | species:Eel            | size:22in  | weight:2.8lbs | loc:ocean,night   | weather:rainy | grade:A | sold to Gus for chowder
+Sp-19 | species:Largemouth_Bass| size:18in  | weight:3.5lbs | loc:lake,dock     | weather:sunny | grade:B | caught using new lure
+Su-02 | species:Pufferfish     | size:11in  | weight:1.9lbs | loc:ocean,morning | weather:sunny | grade:B | sold at market
+Su-06 | species:Tuna           | size:48in  | weight:21lbs  | loc:ocean,deep    | weather:clear | grade:S | best catch of the year
+Su-09 | species:Pike           | size:27in  | weight:5.7lbs | loc:lake,reeds    | weather:sunny | grade:A | kept for display
+Su-14 | species:Tilapia        | size:15in  | weight:2.1lbs | loc:ocean,pier    | weather:sunny | grade:C | common this time of year
+Su-22 | species:Super_Cucumber | size:19in  | weight:3.3lbs | loc:ocean,night   | weather:clear | grade:A | rare find, sold for 250g
+Fa-03 | species:Salmon         | size:26in  | weight:4.4lbs | loc:river,falls   | weather:rainy | grade:A | sold to Willy's stock
+Fa-08 | species:Tiger_Trout    | size:24in  | weight:3.8lbs | loc:river,morning | weather:rainy | grade:S | extremely rare
+Fa-17 | species:Albacore       | size:33in  | weight:7.2lbs | loc:ocean,morning | weather:windy | grade:B | decent fight on the line
+Fa-21 | species:Walleye        | size:20in  | weight:3.1lbs | loc:lake,evening  | weather:rainy | grade:B | sold to Pierre

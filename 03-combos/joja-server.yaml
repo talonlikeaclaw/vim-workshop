@@ -1,0 +1,23 @@
+# Active config
+max_players: 200
+tick_rate: 64
+region: eu-west-1
+
+# DEPRECATED — delete these 3 lines
+legacy_host: "old-server-07.internal"
+legacy_port: 8012
+legacy_protocol: "tcp-v1"
+
+# Active config continues
+enable_anticheat: true
+enable_replay_system: true
+
+# DEPRECATED — delete these 3 lines
+old_matchmaking_url: "http://mm-legacy.corp.net"
+old_matchmaking_key: "key_AAAABBBBCCCC"
+old_matchmaking_version: "v0.9"
+
+# Active config continues
+log_retention_days: 30
+max_log_size_mb: 500
+debug_mode: true

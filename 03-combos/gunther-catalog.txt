@@ -1,0 +1,7 @@
+// Artifact IDs confirmed by dig site — yank each one and paste to the correct entry:
+// ANCIENT_DOLL_004  ELVISH_JEWELRY_036  PREHISTORIC_TIBIA_109  DWARF_GADGET_422
+
+Entry #1 | Fall 14, Year 2   | donor: Player | artifact_id:
+Entry #2 | Winter 3, Year 2  | donor: Player | artifact_id:
+Entry #3 | Spring 8, Year 3  | donor: Player | artifact_id:
+Entry #4 | Summer 20, Year 3 | donor: Player | artifact_id:

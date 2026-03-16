@@ -1,0 +1,11 @@
+TRAVELING CART — Week 14 Inventory
+Items marked "reserved" not collected by end of day return to stock.
+
+Prismatic Shard     | 5000g | reserved
+Ancient Sword       | 500g  | available
+Rare Disc           | 2500g | reserved
+Pink Cake           | 750g  | available
+Life Elixir         | 2000g | reserved
+Strange Bun         | 300g  | available
+Void Egg            | 500g  | reserved
+Iridium Sprinkler   | 3000g | reserved

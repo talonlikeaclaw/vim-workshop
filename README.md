@@ -3,22 +3,27 @@
 > _You already min-max in the games you play. Now do it for your text navigation._
 
 Welcome to the follow-along repo for the Vim Motions workshop.
-Each file is a level. Open them in order. Don't skip ahead.
-
-## How to Open a file
-
-```bash
-nvim 01-modes.md
-```
+Each folder is a level. Open the README on GitLab to read the instructions,
+then open the practice files in nvim alongside it.
 
 ## Levels
 
-| File               | Topic                    | New Skills                                          |
-| ------------------ | ------------------------ | --------------------------------------------------- |
-| `01-modes.md`      | Modes                    | `i`, `Esc`, `:w`, `:wq`, `:q!`                      |
-| `02-navigation.md` | Navigation + Multipliers | `w` `b` `e`, `f` `F`, `0` `$`, `gg` `G`, `5w` `10j` |
-| `03-combos.md`     | Verb + Noun Combos       | `ci"`, `da(`, `yiw`, `p`, `cc`, `3dd`, `.`          |
-| `04-search.md`     | Search + Replace         | `/pattern`, `n`, `N`, `*`, `:%s`                    |
+| Folder           | Topic                    | New Skills                                           |
+| ---------------- | ------------------------ | ---------------------------------------------------- |
+| `01-modes/`      | Modes                    | `i`, `a`, `o`, `Esc`, `:w`, `:wq`, `:q!`            |
+| `02-navigation/` | Navigation + Multipliers | `w` `b` `e`, `f` `F`, `0` `$`, `gg` `G`, `5w` `10j` |
+| `03-combos/`     | Verb + Noun Combos       | `ci"`, `da(`, `yiw`, `p`, `cc`, `3dd`               |
+
+## How to Use This Repo
+
+1. Open the level's `README.md` here on GitLab — that's your reference
+2. In your terminal, `cd` into the level folder and open the practice file in nvim
+3. Follow the quest steps from the README
+
+```bash
+cd 01-modes
+nvim pierre-ledger.txt
+```
 
 ## Emergency Exit
 
@@ -31,3 +36,7 @@ Esc
 
 `Esc` gets you back to Normal mode. `:q!` force quits without saving.
 Everyone needs this at least once. Usually in the first 5 minutes.
+
+---
+
+_Workshop content made with help from [Claude Code](https://claude.ai/code)._

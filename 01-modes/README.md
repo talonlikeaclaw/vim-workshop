@@ -10,7 +10,7 @@
 ## Moving Around
 
 You'll need to move your cursor to complete these quests.
-Use `hjkl` to move: `j` down, `k` up,`h` left, `l` right.
+Use `hjkl` to move: `j` down, `k` up, `h` left, `l` right.
 
 `j` and `k` are right on the home row. Moving up and down lines is the most common
 thing you do while navigating code; keeping that under your fingers instead of reaching for the
@@ -59,25 +59,16 @@ In Vim, your entire keyboard is a control panel in Normal mode:
 
 ## Quest Log Entry #001
 
-Pierre's shop ledger has a mistake. Last season's seed order got marked `ABANDONED`
-but it was fulfilled. Fix it before he notices.
+Pierre's shop ledger has a mistake. Last season's seed order got
+marked `ABANDONED` but it was fulfilled. Fix it before he notices.
+
+Open the file: `nvim pierre-ledger.txt`
 
 <!-- TODO: Use `j` to move down to the STATUS line -->
 <!-- TODO: Press `A` (append) to jump to the end of the line in insert mode -->
 <!-- TODO: Backspace over "ABANDONED" and type "COMPLETED" -->
 <!-- TODO: Press `Esc` to return to Normal mode -->
 <!-- TODO: Type `:w` (write) and hit Enter to save -->
-
-```
-DELIVERY LOG — Pierre's General Store
-DATE:      Spring 14, Year 2
-ITEM:      Parsnip Seeds (x50)
-STATUS:    ABANDONED
-
-Notes: Order arrived from Zuzu City. All 50 seed packets accounted for.
-       Payment processed. Stocked on shelves same day.
-       This order was fulfilled and should be marked as such.
-```
 
 ---
 
@@ -86,27 +77,16 @@ Notes: Order arrived from Zuzu City. All 50 seed packets accounted for.
 Robin finished your barn upgrade but forgot to log the materials cost.
 Mayor Lewis needs it for the town budget. Add it before the next council meeting.
 
+Open the file: `nvim robin-carpentry.txt`
+
 <!-- TODO: Navigate to the "MATERIALS:" line -->
-<!-- TODO: Press `o` to open a new line below it; you drop straight into insert mode -->
+<!-- TODO: Press `o` to (open) a new line below it; you drop straight into insert mode -->
 <!-- TODO: Type the materials: "- 550g, 150 Wood, 100 Stone" -->
 <!-- TODO: Press `Esc`, then `:w` to save -->
-
-```
-CONSTRUCTION LOG — Robin's Carpentry
-DATE:      Summer 8, Year 2
-PROJECT:   Big Barn Upgrade
-STATUS:    COMPLETED
-MATERIALS:
-
-Notes: Completed in 3 days. Client was present for final walkthrough.
-       New loft storage installed. Animals seem happy with the extra space.
-```
 
 ---
 
 ## Checkpoint
-
-_Check the boxes with `r` (replace) `x`_
 
 - [ ] Can enter insert mode with `i`, `a`, and `o`
 - [ ] Know the difference: `i` (before cursor), `a` (after), `o` (new line below)
@@ -114,4 +94,4 @@ _Check the boxes with `r` (replace) `x`_
 - [ ] Can save with `:w`
 - [ ] Know that `Esc` is always the way back to safety
 
-> Open the next level: `:q` then `nvim 02-navigation.md`
+> Open the next level: `cd ../02-navigation`

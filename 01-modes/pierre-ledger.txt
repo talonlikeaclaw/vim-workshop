@@ -1,0 +1,8 @@
+DELIVERY LOG — Pierre's General Store
+DATE:      Spring 14, Year 2
+ITEM:      Parsnip Seeds (x50)
+STATUS:    ABANDONED
+
+Notes: Order arrived from Zuzu City. All 50 seed packets accounted for.
+       Payment processed. Stocked on shelves same day.
+       This order was fulfilled and should be marked as such.

@@ -25,7 +25,24 @@ You reach for the mouse constantly. You highlight with click-and-drag.
 
 In Vim, your entire keyboard is a control panel in Normal mode.
 `d` deletes. `y` copies. `w` jumps a word. No Ctrl, no Alt, no mouse.
-The speed comes from keeping your hands on the home row — always.
+The speed comes from keeping your hands on the home row, always.
+
+---
+
+## Getting Into Insert Mode
+
+`i` is the basic entry point, but there are six ways in. Each places your cursor differently, saving you extra keystrokes before you start typing.
+
+| Key | Inserts at...                   |
+| --- | ------------------------------- |
+| `i` | Before the cursor               |
+| `a` | After the cursor                |
+| `I` | Start of the line               |
+| `A` | End of the line                 |
+| `o` | New line below the current line |
+| `O` | New line above the current line |
+
+`o` is the one you'll reach for constantly while coding: you're on a line and want to add something below it. `o` to "Open" line below. No navigating to the end of the line first.
 
 ---
 

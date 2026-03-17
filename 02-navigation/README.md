@@ -57,7 +57,7 @@ Open the file: `nvim town-calendar.txt`
 >
 > **TIP:** G and gg are your anchors, use multipliers to cover the distance in between
 >
-> **TODO:** Use `gg` then `10j` to step down into the Spring section
+> **TODO:** Use `gg` then `10j` to step down into the `Spring` section
 >
 > **TIP:** Don't stress about the exact count; overshoot and correct with `k`
 >

@@ -91,7 +91,7 @@ They need to go into the donation log below. Retyping them risks transcription e
 
 Open the file: `nvim gunther-catalog.txt`
 
-> **TODO:** Put your cursor on an artifact ID in the comment (e.g. ANCIENT_DOLL_004)
+> **TODO:** Put your cursor on an artifact ID in the comment (`ANCIENT_DOLL_004`)
 >
 > **TODO:** Press `yiw`, the whole ID is yanked (nothing visible happens, but it's in your register)
 >
@@ -121,7 +121,7 @@ Open the file: `nvim joja-server.yaml`
 >
 > **TIP:** `3dd` deletes and you stay in Normal mode, nothing to type afterward
 >
-> **TODO:** Do the same for the second DEPRECATED block
+> **TODO:** Do the same for the second `DEPRECATED` block
 >
 > **TODO:** Find the `debug_mode` line, it should be `false` in production
 >
@@ -136,7 +136,7 @@ Open the file: `nvim joja-server.yaml`
 ## Quest Log Entry #005
 
 The Traveling Merchant's reserved items weren't picked up; they all need to go back to `available`.
-Some are already `available`. You only touch the `reserved` ones.
+Some are already `available`. You only need to touch the `reserved` ones.
 Make the first change manually. Every one after that is just navigation + `.`.
 
 Open the file: `nvim traveling-cart.txt`

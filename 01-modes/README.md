@@ -47,7 +47,7 @@ In Vim, your entire keyboard is a control panel in Normal mode:
 
 Once you're in a file, use `hjkl` to move in Normal mode: `h` left, `j` down, `k` up, `l` right.
 
-`j` and `k` are right on the home row. Even YouTube uses them: `k` pauses, `j`/`l` skip backward/forward. You already know these without realising it.
+`j` and `k` are right on the home row. Even YouTube uses them: `k` pauses, `j`/`l` skip 10s backward/forward.
 
 ---
 
@@ -57,7 +57,7 @@ Pierre's shop ledger has a mistake. Last season's seed order got marked `ABANDON
 
 Open the file: `nvim pierre-ledger.txt`
 
-> **TODO:** Use `j` to move down to the STATUS line
+> **TODO:** Use `j` to move down to the `STATUS` line
 >
 > **TIP:** `j` moves down, `k` moves up. Arrow keys work too, but try to stay on `hjkl`
 >
@@ -65,7 +65,7 @@ Open the file: `nvim pierre-ledger.txt`
 >
 > **TIP:** `A` saves you from navigating to the end manually, it jumps and switches mode in one keystroke
 >
-> **TODO:** Backspace over "ABANDONED" and type "COMPLETED"
+> **TODO:** Backspace over `ABANDONED` and type `COMPLETED`
 >
 > **TODO:** Press `Esc` to return to Normal mode
 >
@@ -82,13 +82,13 @@ Mayor Lewis needs it for the town budget. Add it before the next council meeting
 
 Open the file: `nvim robin-carpentry.txt`
 
-> **TODO:** Use `j` / `k` to navigate to the "MATERIALS:" line
+> **TODO:** Use `j` / `k` to navigate to the `MATERIALS:` line
 >
 > **TODO:** Press `o` to open a new line below it; you drop straight into insert mode
 >
 > **TIP:** `o` beats navigating to end of line then pressing Enter, it does both in one key
 >
-> **TODO:** Type the materials: "- 550g, 150 Wood, 100 Stone"
+> **TODO:** Type the materials: `- 550g, 150 Wood, 100 Stone`
 >
 > **TODO:** Press `Esc`, then `:w` to save
 

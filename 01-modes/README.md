@@ -85,8 +85,6 @@ Open the file: `nvim robin-carpentry.txt`
 
 ## Checkpoint
 
-_Check the boxes with `r` (replace) `x`_
-
 - [ ] Can enter insert mode with `i`, `a`, and `o`
 - [ ] Know the difference: `i` (before cursor), `a` (after), `o` (new line below)
 - [ ] Can return to Normal mode with `Esc`

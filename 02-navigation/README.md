@@ -89,8 +89,6 @@ Open the file: `nvim willy-catch-log.txt`
 
 ## Checkpoint
 
-_Check the boxes with `r` (replace) `x`_
-
 - [ ] Used `gg` and `G` to jump to top/bottom of the file
 - [ ] Used a numeric multiplier like `10j` or `5w`
 - [ ] Used `f<x>` to jump to a specific character on a line

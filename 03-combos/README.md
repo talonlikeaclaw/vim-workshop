@@ -132,8 +132,6 @@ Open the file: `nvim traveling-cart.txt`
 
 ## Final Checkpoint
 
-_Check the boxes with `r` (replace) `x`_
-
 - [ ] Used `ci"` without having to position cursor inside the quotes
 - [ ] Used `ci(`, same move, different delimiter
 - [ ] Used `yiw` + `p` to copy and paste without retyping

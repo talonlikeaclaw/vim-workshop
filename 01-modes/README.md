@@ -1,23 +1,9 @@
-# Level 1 - Select Your Mode
+# Level 1: Select Your Mode
 
 > Vim has modes. This is the thing that confuses everyone at first.
 > Most editors only have one mode: you open the file, you type.
 > Vim separates _navigating_ from _typing_. That separation is the _whole point_.
 > Normal mode is home base. You spend most of your time here.
-
----
-
-## Moving Around
-
-You'll need to move your cursor to complete these quests.
-Use `hjkl` to move: `j` down, `k` up, `h` left, `l` right.
-
-`j` and `k` are right on the home row. Moving up and down lines is the most common
-thing you do while navigating code; keeping that under your fingers instead of reaching for the
-arrow keys or mouse is exactly the kind of friction vim removes.
-
-Even YouTube uses vim motions for pausing and moving forward/back in a video.
-Pause with `k`, skip forward 10s with `l`, skip backward 10s with `j`.
 
 ---
 
@@ -57,18 +43,28 @@ In Vim, your entire keyboard is a control panel in Normal mode:
 
 ---
 
+## Moving Around
+
+Once you're in a file, use `hjkl` to move in Normal mode: `h` left, `j` down, `k` up, `l` right.
+
+`j` and `k` are right on the home row. Even YouTube uses them: `k` pauses, `j`/`l` skip backward/forward. You already know these without realising it.
+
+---
+
 ## Quest Log Entry #001
 
-Pierre's shop ledger has a mistake. Last season's seed order got
-marked `ABANDONED` but it was fulfilled. Fix it before he notices.
+Pierre's shop ledger has a mistake. Last season's seed order got marked `ABANDONED` but it was fulfilled. Fix it before he notices.
 
 Open the file: `nvim pierre-ledger.txt`
 
 <!-- TODO: Use `j` to move down to the STATUS line -->
-<!-- TODO: Press `A` (append) to jump to the end of the line in insert mode -->
+<!-- TIP: j moves down, k moves up. Arrow keys work too, but try to stay on hjkl -->
+<!-- TODO: Press `A` to jump to the end of the line and enter insert mode -->
+<!-- TIP: `A` saves you from navigating to the end manually, it jumps and switches mode in one keystroke -->
 <!-- TODO: Backspace over "ABANDONED" and type "COMPLETED" -->
 <!-- TODO: Press `Esc` to return to Normal mode -->
-<!-- TODO: Type `:w` (write) and hit Enter to save -->
+<!-- TIP: If you ever feel lost, `Esc` always gets you back to Normal mode -->
+<!-- TODO: Type `:w` and hit Enter to save -->
 
 ---
 
@@ -79,14 +75,17 @@ Mayor Lewis needs it for the town budget. Add it before the next council meeting
 
 Open the file: `nvim robin-carpentry.txt`
 
-<!-- TODO: Navigate to the "MATERIALS:" line -->
-<!-- TODO: Press `o` to (open) a new line below it; you drop straight into insert mode -->
+<!-- TODO: Use `j` / `k` to navigate to the "MATERIALS:" line -->
+<!-- TODO: Press `o` to open a new line below it; you drop straight into insert mode -->
+<!-- TIP: `o` beats navigating to end of line then pressing Enter, it does both in one key -->
 <!-- TODO: Type the materials: "- 550g, 150 Wood, 100 Stone" -->
 <!-- TODO: Press `Esc`, then `:w` to save -->
 
 ---
 
 ## Checkpoint
+
+_Check the boxes with `r` (replace) `x`_
 
 - [ ] Can enter insert mode with `i`, `a`, and `o`
 - [ ] Know the difference: `i` (before cursor), `a` (after), `o` (new line below)

@@ -6,7 +6,7 @@ Welcome to the follow-along repo for the Vim Motions workshop.
 Each folder is a level. Open the README on GitLab to read the instructions,
 then open the practice files in nvim alongside it.
 
-**[→ Get Started](01-modes/)** - `cd 01-modes`
+**[→ Get Started](01-modes/)** : `cd 01-modes`
 
 ## Levels
 

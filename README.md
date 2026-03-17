@@ -10,11 +10,11 @@ then open the practice files in nvim alongside it.
 
 ## Levels
 
-| Folder           | Topic                    | New Skills                                           |
-| ---------------- | ------------------------ | ---------------------------------------------------- |
-| `01-modes/`      | Modes                    | `i`, `a`, `o`, `Esc`, `:w`, `:wq`, `:q!`            |
-| `02-navigation/` | Navigation + Multipliers | `w` `b` `e`, `f` `F`, `0` `$`, `gg` `G`, `5w` `10j` |
-| `03-combos/`     | Verb + Noun Combos       | `ci"`, `da(`, `yiw`, `p`, `cc`, `3dd`               |
+| Folder | Topic | New Skills |
+| ------ | ----- | ---------- |
+| [01-modes/](01-modes/) | Modes | `i`, `a`, `o`, `Esc`, `:w`, `:wq`, `:q!` |
+| [02-navigation/](02-navigation/) | Navigation + Multipliers | `w` `b` `e`, `f` `F` `;`, `0` `$`, `gg` `G`, `5w` `10j` |
+| [03-combos/](03-combos/) | Verb + Noun Combos | `ci"`, `ci(`, `yiw`, `p`, `cc`, `3dd`, `.` |
 
 ## How to Use This Repo
 

@@ -33,11 +33,15 @@ Every bad value is already wrapped in quotes. `ci"` gets you inside them from an
 
 Open the file: `nvim pierre-config.txt`
 
-<!-- TODO: Put your cursor anywhere on a line with a wrong value -->
-<!-- TODO: Press `ci"`, everything inside the quotes is wiped and you're in insert mode -->
-<!-- TIP: Cursor doesn't have to be inside the quotes, anywhere on the line works -->
-<!-- TODO: Type the correct value, press `Esc`, move to the next wrong line -->
-<!-- TIP: Each fix is the same motion: ci", type, Esc. Build the muscle memory -->
+> **TODO:** Put your cursor anywhere on a line with a wrong value
+>
+> **TODO:** Press `ci"`, everything inside the quotes is wiped and you're in insert mode
+>
+> **TIP:** Cursor doesn't have to be inside the quotes, anywhere on the line works
+>
+> **TODO:** Type the correct value, press `Esc`, move to the next wrong line
+>
+> **TIP:** Each fix is the same motion: `ci"`, type, `Esc`. Build the muscle memory
 
 Correct values (in order):
 
@@ -59,11 +63,15 @@ He stubbed out all the API calls with placeholder args and now needs them filled
 
 Open the file: `nvim sebastian-site.js`
 
-<!-- TODO: Put your cursor anywhere on the line, even on the function name works -->
-<!-- TIP: Same move as ci", just swap the delimiter. The pattern is always: c i <delimiter> -->
-<!-- TODO: Press `ci(`, everything inside the parentheses is wiped and you're in insert mode -->
-<!-- TODO: Type the correct arguments from the list, press `Esc` -->
-<!-- TODO: Repeat for each call, notice you never have to aim at the parentheses -->
+> **TODO:** Put your cursor anywhere on the line, even on the function name works
+>
+> **TIP:** Same move as `ci"`, just swap the delimiter. The pattern is always: `c i <delimiter>`
+>
+> **TODO:** Press `ci(`, everything inside the parentheses is wiped and you're in insert mode
+>
+> **TODO:** Type the correct arguments from the list, press `Esc`
+>
+> **TODO:** Repeat for each call, notice you never have to aim at the parentheses
 
 Correct arguments (in order):
 
@@ -83,13 +91,19 @@ They need to go into the donation log below. Retyping them risks transcription e
 
 Open the file: `nvim gunther-catalog.txt`
 
-<!-- TODO: Put your cursor on an artifact ID in the comment (e.g. ANCIENT_DOLL_004) -->
-<!-- TODO: Press `yiw`, the whole ID is yanked (nothing visible happens, but it's in your register) -->
-<!-- TIP: yiw yanks the word under your cursor regardless of where on the word you are -->
-<!-- TODO: Navigate to the corresponding entry line -->
-<!-- TODO: Press `$` to jump to the end of the line, cursor lands on the `:` -->
-<!-- TODO: Press `p` to paste, the ID appears right after the colon -->
-<!-- TIP: p always pastes after the cursor; $ gets you to the right spot first -->
+> **TODO:** Put your cursor on an artifact ID in the comment (e.g. ANCIENT_DOLL_004)
+>
+> **TODO:** Press `yiw`, the whole ID is yanked (nothing visible happens, but it's in your register)
+>
+> **TIP:** `yiw` yanks the word under your cursor regardless of where on the word you are
+>
+> **TODO:** Navigate to the corresponding entry line
+>
+> **TODO:** Press `$` to jump to the end of the line, cursor lands on the `:`
+>
+> **TODO:** Press `p` to paste, the ID appears right after the colon
+>
+> **TIP:** `p` always pastes after the cursor; `$` gets you to the right spot first
 
 ---
 
@@ -101,14 +115,21 @@ Use `3dd` to delete each block, `cc` to fix the wrong value.
 
 Open the file: `nvim joja-server.yaml`
 
-<!-- TODO: Put your cursor on the first legacy entry line (not the comment, the data line below it) -->
-<!-- TODO: Press `3dd`, all 3 lines are deleted at once without entering insert mode -->
-<!-- TIP: 3dd deletes and you stay in Normal mode, nothing to type afterward -->
-<!-- TODO: Do the same for the second DEPRECATED block -->
-<!-- TODO: Find the `debug_mode` line, it should be `false` in production -->
-<!-- TODO: Press `cc`, the line is wiped and you're in insert mode -->
-<!-- TIP: cc wipes the line but keeps the indentation, ready for you to type the replacement -->
-<!-- TODO: Type `debug_mode: false`, press `Esc` -->
+> **TODO:** Put your cursor on the first legacy entry line (not the comment, the data line below it)
+>
+> **TODO:** Press `3dd`, all 3 lines are deleted at once without entering insert mode
+>
+> **TIP:** `3dd` deletes and you stay in Normal mode, nothing to type afterward
+>
+> **TODO:** Do the same for the second DEPRECATED block
+>
+> **TODO:** Find the `debug_mode` line, it should be `false` in production
+>
+> **TODO:** Press `cc`, the line is wiped and you're in insert mode
+>
+> **TIP:** `cc` wipes the line but keeps the indentation, ready for you to type the replacement
+>
+> **TODO:** Type `debug_mode: false`, press `Esc`
 
 ---
 
@@ -120,13 +141,19 @@ Make the first change manually. Every one after that is just navigation + `.`.
 
 Open the file: `nvim traveling-cart.txt`
 
-<!-- TODO: Navigate to the first `reserved` line and position cursor on the word `reserved` -->
-<!-- TODO: Press `cw`, type `available`, press `Esc` -->
-<!-- TIP: cw changes from cursor to end of word; cursor needs to be at the start of the word -->
-<!-- TODO: Move to the next `reserved` line, put cursor on `reserved` again -->
-<!-- TODO: Press `.`, it replays the entire last change: cw + "available" + Esc -->
-<!-- TIP: . repeats the FULL last change: the motion, the text you typed, everything -->
-<!-- TODO: Repeat for every reserved item, one keystroke per fix instead of retyping each time -->
+> **TODO:** Navigate to the first `reserved` line and position cursor on the word `reserved`
+>
+> **TODO:** Press `cw`, type `available`, press `Esc`
+>
+> **TIP:** `cw` changes from cursor to end of word; cursor needs to be at the start of the word
+>
+> **TODO:** Move to the next `reserved` line, put cursor on `reserved` again
+>
+> **TODO:** Press `.`, it replays the entire last change: `cw` + "available" + `Esc`
+>
+> **TIP:** `.` repeats the FULL last change: the motion, the text you typed, everything
+>
+> **TODO:** Repeat for every reserved item, one keystroke per fix instead of retyping each time
 
 ---
 

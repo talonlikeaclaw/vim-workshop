@@ -53,13 +53,19 @@ He needs three facts:
 
 Open the file: `nvim town-calendar.txt`
 
-<!-- TODO: Press `G` to jump to the very last line of the calendar -->
-<!-- TIP: G and gg are your anchors, use multipliers to cover the distance in between -->
-<!-- TODO: Use `gg` then `10j` to step down into the Spring section -->
-<!-- TIP: Don't stress about the exact count; overshoot and correct with k -->
-<!-- TODO: Use `3w` to skip across a dense event line word by word -->
-<!-- TODO: Use `10j` / `10k` to jump between seasons without counting rows -->
-<!-- TIP: Multipliers feel slow to type at first, but 10j beats pressing j ten times -->
+> **TODO:** Press `G` to jump to the very last line of the calendar
+>
+> **TIP:** G and gg are your anchors, use multipliers to cover the distance in between
+>
+> **TODO:** Use `gg` then `10j` to step down into the Spring section
+>
+> **TIP:** Don't stress about the exact count; overshoot and correct with `k`
+>
+> **TODO:** Use `3w` to skip across a dense event line word by word
+>
+> **TODO:** Use `10j` / `10k` to jump between seasons without counting rows
+>
+> **TIP:** Multipliers feel slow to type at first, but `10j` beats pressing `j` ten times
 
 ---
 
@@ -76,14 +82,21 @@ These lines are dense. `w` and `b` for words, `f` to jump to a character, `0` an
 
 Open the file: `nvim willy-catch-log.txt`
 
-<!-- TODO: Use `f|` to jump forward to the next field separator on a line, use `;` to repeat -->
-<!-- TIP: `;` replays the last f/F jump, so f| then ;;; hops across all the separators -->
-<!-- TODO: Use `F|` to jump back to the previous separator -->
-<!-- TODO: Use `f:` to land on a field label's colon and then `w` to jump to its value -->
-<!-- TIP: w after f: skips the colon and lands you on the value -->
-<!-- TODO: Use `0` to snap back to the start of any line -->
-<!-- TODO: Use `$` to jump to the end and check the notes field -->
-<!-- TODO: Use `3w` or `2b` to skip multiple words at once on a crowded line -->
+> **TODO:** Use `f|` to jump forward to the next field separator on a line, use `;` to repeat
+>
+> **TIP:** `;` replays the last `f`/`F` jump, so `f|` then `;;;` hops across all the separators
+>
+> **TODO:** Use `F|` to jump back to the previous separator
+>
+> **TODO:** Use `f:` to land on a field label's colon and then `w` to jump to its value
+>
+> **TIP:** `w` after `f:` skips the colon and lands you on the value
+>
+> **TODO:** Use `0` to snap back to the start of any line
+>
+> **TODO:** Use `$` to jump to the end and check the notes field
+>
+> **TODO:** Use `3w` or `2b` to skip multiple words at once on a crowded line
 
 ---
 

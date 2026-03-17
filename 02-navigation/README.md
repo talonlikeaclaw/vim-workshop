@@ -94,4 +94,4 @@ _Check the boxes with `r` (replace) `x`_
 - [ ] Used `0` and `$` to snap to line start/end
 - [ ] Did not touch the arrow keys or mouse
 
-> Open the next level: `cd ../03-combos`
+> Open the next level: `cd ../03-combos` → [03-combos on GitLab](../03-combos)

@@ -94,4 +94,4 @@ Open the file: `nvim robin-carpentry.txt`
 - [ ] Can save with `:w`
 - [ ] Know that `Esc` is always the way back to safety
 
-> Open the next level: `cd ../02-navigation`
+> Open the next level: `cd ../02-navigation` → [02-navigation on GitLab](../02-navigation)

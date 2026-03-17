@@ -6,6 +6,8 @@ Welcome to the follow-along repo for the Vim Motions workshop.
 Each folder is a level. Open the README on GitLab to read the instructions,
 then open the practice files in nvim alongside it.
 
+**[→ Get Started](01-modes/)**
+
 ## Levels
 
 | Folder           | Topic                    | New Skills                                           |
@@ -16,7 +18,7 @@ then open the practice files in nvim alongside it.
 
 ## How to Use This Repo
 
-1. Open the level's `README.md` here on GitLab — that's your reference
+1. Open the level's `README.md` here on GitLab, that's your reference
 2. In your terminal, `cd` into the level folder and open the practice file in nvim
 3. Follow the quest steps from the README
 

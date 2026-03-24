@@ -1,7 +1,7 @@
 # Active config
 max_players: 200
 tick_rate: 64
-region: eu-west-1
+region: eu-wast-1
 
 # DEPRECATED — delete these 3 lines
 legacy_host: "old-server-07.internal"

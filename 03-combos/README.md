@@ -81,9 +81,11 @@ Scenario: The JojaMart server is being decommissioned. Two legacy entry blocks n
 > 1. Cursor on the first legacy entry (below `DEPRECATED`), `3dd` -> all 3 lines gone
 > 2. Repeat for the second `DEPRECATED` block
 > 3. Find `debug_mode`, `cc`, type `debug_mode: false`, `Esc`
+> 4. Find `eu-wast-1`, cursor on the `a`, `re` -> fix the typo
 
 **Tip**: `3dd` deletes and you stay in Normal mode. No insert needed.
 **Tip**: `cc` wipes the line but keeps indentation -> ready for the replacement.
+**Tip**: `r<x>` replaces one character -> no insert mode, no `Esc`.
 
 ---
 
@@ -130,7 +132,7 @@ Scenario: The Traveling Merchant's items weren't picked up! Change the `reserved
 - [ ] `3dd` deletes N lines in one command
 - [ ] `cc` wipes and rewrites a line
 - [ ] `.` repeats the last change
-- [ ] `r<x>` replaces a char without insert mode
+- [ ] `r<x>` to fix a single char without entering insert mode
 
 ---
 

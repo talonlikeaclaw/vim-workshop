@@ -3,7 +3,4 @@
 shop_name     = "Joja_General_Store_WRONG"
 owner_email   = "joja_customer_services@joja.com_WRONG"
 currency      = "joja_coins_WRONG"
-tax_rate      = "0.00_WRONG"
-supplier_url  = "http://joja-supply.corp.net/api/v1/DEPRECATED"
 receipt_msg   = "Thank_you_for_choosing_Joja_WRONG"
-region        = "zuzu_city_WRONG"

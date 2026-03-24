@@ -1,8 +1,6 @@
 // pelican-town-community/src/api.js
-// Sebastian's working on the Pelican Town community site — all calls have placeholder args
+// Sebastian's working on the Pelican Town community site; first-draft args, need the real ones before launch
 
-createPost(PLACEHOLDER)
-deleteComment(PLACEHOLDER)
-updateMemberProfile(PLACEHOLDER)
-scheduleEvent(PLACEHOLDER)
-sendAnnouncement(PLACEHOLDER)
+createPost(id, title, body);
+deleteComment(id, userId);
+scheduleEvent(id, name, date);

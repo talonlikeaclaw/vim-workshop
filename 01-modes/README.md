@@ -18,17 +18,17 @@
 
 ---
 
-## Why Does This Matter?
+## The Payoff
 
-In a normal editor you reach for the mouse constantly. Every edit is a context switch.
+In a normal editor: reach for the mouse, click to position, back to keyboard, type, repeat. Every single edit.
 In Vim, your entire keyboard is a control panel in Normal mode:
-`d` deletes, `y` copies, `w` jumps a word. No Ctrl, no Alt, no mouse. **Hands on the home row, always.**
+`d` deletes, `y` copies, `w` jumps a word: no Ctrl, no Alt, no mouse. **Hands stay on the home row.**
 
 ---
 
 ## Getting Into Insert Mode
 
-`i` is the basic entry point, but there are six ways in. Each places your cursor differently, saving you extra keystrokes before you start typing.
+`i` is the basic way in, but there are others. The quests below use `i`, `A`, and `o`: the rest are there when you want them.
 
 | Key | Inserts at...                   |
 | --- | ------------------------------- |
@@ -51,6 +51,17 @@ Once you're in a file, use `hjkl` to move in Normal mode: `h` left, `j` down, `k
 
 ---
 
+## Undo & Redo
+
+| Key      | What it does         |
+| -------- | -------------------- |
+| `u`      | Undo last change     |
+| `Ctrl+r` | Redo (undo the undo) |
+
+`u` is your safety net. Made a mistake? Press `u`. You can undo as many times as you need; this is what lets you experiment freely.
+
+---
+
 ## Quest Log Entry #001
 
 Pierre's shop ledger has a mistake. Last season's seed order got marked `ABANDONED` but it was fulfilled. Fix it before he notices.
@@ -63,7 +74,7 @@ Open the file: `nvim pierre-ledger.txt`
 >
 > **TODO:** Press `A` to jump to the end of the line and enter insert mode
 >
-> **TIP:** `A` saves you from navigating to the end manually, it jumps and switches mode in one keystroke
+> **TIP:** `A` is two actions in one: jump to end of line + enter insert. In any other editor you'd click there first.
 >
 > **TODO:** Backspace over `ABANDONED` and type `COMPLETED`
 >
@@ -72,6 +83,8 @@ Open the file: `nvim pierre-ledger.txt`
 > **TIP:** If you ever feel lost, `Esc` always gets you back to Normal mode
 >
 > **TODO:** Type `:w` and hit Enter to save
+>
+> **TIP:** You just backspaced 9 characters to delete a word. In Level 3, you'll do that in 2 keystrokes. That's where this is going.
 
 ---
 
@@ -86,7 +99,7 @@ Open the file: `nvim robin-carpentry.txt`
 >
 > **TODO:** Press `o` to open a new line below it; you drop straight into insert mode
 >
-> **TIP:** `o` beats navigating to end of line then pressing Enter, it does both in one key
+> **TIP:** `o` is three actions collapsed into one: go to end of line, press Enter, enter insert mode. One key.
 >
 > **TODO:** Type the materials: `- 550g, 150 Wood, 100 Stone`
 >
@@ -101,5 +114,6 @@ Open the file: `nvim robin-carpentry.txt`
 - [ ] Can return to Normal mode with `Esc`
 - [ ] Can save with `:w`
 - [ ] Know that `Esc` is always the way back to safety
+- [ ] Can undo with `u` and redo with `Ctrl+r`
 
 > Open the next level: `cd ../02-navigation` → [02-navigation on GitLab](../02-navigation)

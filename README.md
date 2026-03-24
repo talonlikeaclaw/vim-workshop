@@ -20,6 +20,14 @@ Open the `README.md` on GitLab to read the instructions, then open the practice 
 
 ---
 
+## How to Use This Workshop
+
+**TL;DR: Just do the quests.** Each level has quests, that's all you need to do.
+
+The rest of the text explains the *why* behind each concept. It's there if you want to learn more, but feel free to skip straight to the quests and learn by doing.
+
+---
+
 ## Levels
 
 | Folder                           | Topic               | Key Moves                                        |

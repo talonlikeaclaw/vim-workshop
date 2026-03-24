@@ -60,9 +60,7 @@ git clone https://gitlab.com/talonlikeaclaw/vim-workshop.git
 cd vim-workshop/01-modes/
 ```
 
-2.
-
-**[Click here to start the first level](01-modes/)**
+2. **[Click here to start the first level](01-modes/)**
 
 ---
 

@@ -7,9 +7,11 @@
 
 **Ensure you are here:** `02-navigation/town-calendar.txt` (check bottom status line).
 
+---
+
 ## Quest #3: Find 3 Facts for Mayor Lewis
 
-**Facts needed:** Spring winner, Summer rainy days, council note.
+Scenario: Find the Spring winner, Summer rainy days count, and council note.
 
 > 1. `G` -> bottom (council note)
 > 2. `gg` -> top, `10j` -> Egg Festival (Spring winner)
@@ -19,16 +21,16 @@
 
 ## Quest #4: Scan Willy's Catch Log
 
-**Switch:** `:e willy-catch-log.txt`
+Switch files: `:e willy-catch-log.txt`
 
-**Dense lines:** 8 fields separated by `|`.
+Scenario: Dense log - 8 fields separated by `|`.
 
 > 1. `f|` -> first `|`, `;;` -> hop fields (repeat last f)
 > 2. `$` -> line end (notes field)
 > 3. `/Tiger` or `*` (on word) -> Tiger Trout
 > 4. `F|`, `;;` -> back to previous `|`
 
-**Pro tip:** `f|` + `;` chains across pipes. `*` searches with zero typing.
+**Pro tip**: `f|` + `;` chains across pipes. `*` searches with zero typing.
 
 ---
 

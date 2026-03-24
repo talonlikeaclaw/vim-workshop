@@ -4,7 +4,7 @@
 >
 > `Esc` = **home base** (Normal mode). Everything starts here.
 >
-> Undo: `u`, Redo: `Ctrl + r`
+> Undo: `u`, Redo: `Ctrl+r`
 >
 > Insert: (`i`/`I`) / Append: (`a`/`A`) / Open: (`o`/`O`) = enter typing (Insert mode).
 
@@ -51,7 +51,7 @@ Scenario: Add materials cost under `MATERIALS:` line.
 | **Exit typing**  | `Esc`                                                           |
 | **Move**         | `h` = left, `j` = down, `k` = up, `l` = right                   |
 | **Undo**         | `u`                                                             |
-| **Redo**         | `Ctrl + r`                                                      |
+| **Redo**         | `Ctrl+r`                                                        |
 | **Save**         | `:w`                                                            |
 | **Switch file**  | `:e filename`                                                   |
 
@@ -63,4 +63,4 @@ Scenario: Add materials cost under `MATERIALS:` line.
 - [ ] Added Robin's materials
 - [ ] `Esc` feels natural
 
-**Next:** `:e ../02-navigation/town-calendar.txt` [Level 2](../02-navigation/)
+**Next:** `:cd ../02-navigation` -> `:e town-calendar.txt` -> [Level 2](../02-navigation/)

@@ -1,119 +1,66 @@
 # Level 1: Select Your Mode
 
-> Vim has modes. This is the thing that confuses everyone at first.
-> Most editors only have one mode: you open the file, you type.
-> Vim separates _navigating_ from _typing_. That separation is the _whole point_.
-> Normal mode is home base. You spend most of your time here.
+> Vim's secret: **separate navigation from typing**.
+>
+> `Esc` = **home base** (Normal mode). Everything starts here.
+>
+> Undo: `u`, Redo: `Ctrl + r`
+>
+> Insert: (`i`/`I`) / Append: (`a`/`A`) / Open: (`o`/`O`) = enter typing (Insert mode).
 
 ---
 
-## The Modes
-
-| Mode        | Enter with | What it's for                                       |
-| ----------- | ---------- | --------------------------------------------------- |
-| **Normal**  | `Esc`      | Moving, deleting, copying; everything except typing |
-| **Insert**  | `i`        | Actually typing new text                            |
-| **Visual**  | `v`        | Selecting text                                      |
-| **Command** | `:`        | Save, quit, find & replace                          |
+**Open the first file**: `nvim pierre-ledger.txt`
 
 ---
 
-## The Payoff
+## Quest #1: Fix Pierre's Ledger
 
-In a normal editor: reach for the mouse, click to position, back to keyboard, type, repeat. Every single edit.
-In Vim, your entire keyboard is a control panel in Normal mode:
-`d` deletes, `y` copies, `w` jumps a word: no Ctrl, no Alt, no mouse. **Hands stay on the home row.**
+Scenario: Last season's seed order says `ABANDONED` - change it to `COMPLETED`.
 
----
+> 1. Use `j` to move down to `STATUS` line (`j` = down, `k` = up, `h` = left, `l` = right)
+> 2. Press `A` (end of line + Insert mode)
+> 3. Backspace `ABANDONED`, type `COMPLETED`
+> 4. `Esc` → Normal mode
+> 5. `:w` + Enter to save (the command prompt is at the bottom)
 
-## Getting Into Insert Mode
-
-`i` is the basic way in, but there are others. The quests below use `i`, `A`, and `o`: the rest are there when you want them.
-
-| Key | Inserts at...                   |
-| --- | ------------------------------- |
-| `i` | Before the cursor               |
-| `a` | After the cursor                |
-| `I` | Start of the line               |
-| `A` | End of the line                 |
-| `o` | New line below the current line |
-| `O` | New line above the current line |
-
-`o` is the one you'll use most while coding: you're on a line and want to add something below it. No need to navigate to the end of the line first.
+**Stuck?** `Esc` always returns to Normal Mode. `:q!` force quits.
 
 ---
 
-## Moving Around
+## Quest #2: Log Robin's Materials
 
-Once you're in a file, use `hjkl` to move in Normal mode: `h` left, `j` down, `k` up, `l` right.
+Switch files: type `:e robin-carpentry.txt` (you can press Tab to auto-complete)
 
-`j` and `k` are right on the home row. Even YouTube uses them: `k` pauses, `j`/`l` skip 10s backward/forward.
+Scenario: Add materials cost under `MATERIALS:` line.
 
----
+> 1. `j`/`k` to `MATERIALS` line
+> 2. `o` (new line below + Insert mode)
+> 3. Type: `- 550g, 150 Wood, 100 Stone`
+> 4. `Esc`, then `:w`
 
-## Undo & Redo
-
-| Key      | What it does         |
-| -------- | -------------------- |
-| `u`      | Undo last change     |
-| `Ctrl+r` | Redo (undo the undo) |
-
-`u` is your safety net. Made a mistake? Press `u`. You can undo as many times as you need; this is what lets you experiment freely.
+**Pro tip**: `o` = end of line + Enter + Insert. **One key**, _three actions_.
 
 ---
 
-## Quest Log Entry #001
+## Quick Reference
 
-Pierre's shop ledger has a mistake. Last season's seed order got marked `ABANDONED` but it was fulfilled. Fix it before he notices.
-
-Open the file: `nvim pierre-ledger.txt`
-
-> **TODO:** Use `j` to move down to the `STATUS` line
->
-> **TIP:** `j` moves down, `k` moves up. Arrow keys work too, but try to stay on `hjkl`
->
-> **TODO:** Press `A` to jump to the end of the line and enter insert mode
->
-> **TIP:** `A` is two actions in one: jump to end of line + enter insert. In any other editor you'd click there first.
->
-> **TODO:** Backspace over `ABANDONED` and type `COMPLETED`
->
-> **TODO:** Press `Esc` to return to Normal mode
->
-> **TIP:** If you ever feel lost, `Esc` always gets you back to Normal mode
->
-> **TODO:** Type `:w` and hit Enter to save
->
-> **TIP:** You just backspaced 9 characters to delete a word. In Level 3, you'll do that in 2 keystrokes. That's where this is going.
-
----
-
-## Quest Log Entry #002
-
-Robin finished your barn upgrade but forgot to log the materials cost.
-Mayor Lewis needs it for the town budget. Add it before the next council meeting.
-
-Open the file: `nvim robin-carpentry.txt`
-
-> **TODO:** Use `j` / `k` to navigate to the `MATERIALS:` line
->
-> **TODO:** Press `o` to open a new line below it; you drop straight into insert mode
->
-> **TIP:** `o` is three actions collapsed into one: go to end of line, press Enter, enter insert mode. One key.
->
-> **TODO:** Type the materials: `- 550g, 150 Wood, 100 Stone`
->
-> **TODO:** Press `Esc`, then `:w` to save
+| When             | Keys                                                            |
+| ---------------- | --------------------------------------------------------------- |
+| **Enter typing** | `i` (cursor), `a` (after), `A` (line end), `o` (new line below) |
+| **Exit typing**  | `Esc`                                                           |
+| **Move**         | `h` = left, `j` = down, `k` = up, `l` = right                   |
+| **Undo**         | `u`                                                             |
+| **Redo**         | `Ctrl + r`                                                      |
+| **Save**         | `:w`                                                            |
+| **Switch file**  | `:e filename`                                                   |
 
 ---
 
 ## Checkpoint
 
-- [ ] Can enter insert mode with `i`, `a`, and `o`
-- [ ] Know the difference: `i` (before cursor), `a` (after), `o` (new line below)
-- [ ] Can return to Normal mode with `Esc`
-- [ ] Can save with `:w`
-- [ ] Know that `Esc` is always the way back to safety
-- [ ] Can undo with `u` and redo with `Ctrl+r`
+- [ ] Fixed Pierre's ledger
+- [ ] Added Robin's materials
+- [ ] `Esc` feels natural
 
-> Open the next level: `cd ../02-navigation` → [02-navigation on GitLab](../02-navigation)
+**Next:** `:e ../02-navigation/town-calendar.txt` [Level 2](../02-navigation/)

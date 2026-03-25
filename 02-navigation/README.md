@@ -25,12 +25,16 @@ Scenario: Find the Spring winner, Summer rainy days count, and council note.
 
 Switch files: `:e willy-catch-log.txt`
 
-Scenario: Dense log, 8 fields per entry. Find the Tiger Trout's catch date. weight, grade, and notes.
+Scenario: Dense log, 8 fields per entry.
 
-> 1. `/Tiger` or `*` (on word) -> Tiger Trout
-> 2. `f|` -> first `|`, `;;` -> hop fields (repeat last f)
-> 3. `$` -> line end (notes field)
-> 4. `0` -> line start (date field)
+- Find the fish with the largest size.
+- Find the Tiger Trout's catch date. weight, grade, and notes.
+
+> 1. Cursor on `size` press `*` -> `n`/`N` to cycle through selections
+> 2. `/Tiger`-> Tiger Trout
+> 3. `f|` -> first `|`, `;;` -> hop fields (repeat last f)
+> 4. `$` -> line end (notes field)
+> 5. `0` -> line start (date field)
 
 **Pro tip**: `f|` + `;` chains across pipes. `*` searches with zero typing.
 

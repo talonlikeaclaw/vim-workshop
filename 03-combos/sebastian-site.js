@@ -1,6 +1,5 @@
 // pelican-town-community/src/api.js
-// Sebastian's working on the Pelican Town community site; first-draft args, need the real ones before launch
 
-createPost(id, title, body);
-deleteComment(id, userId);
-scheduleEvent(id, name, date);
+createPost(joja_id, joja_sponsored_title, joja_body_content)
+const tags = ["joja", "corporate", "sponsored", "not-an-ad", "definitely-not-an-ad"]
+const config = { theme: "joja-dark", font: "joja-sans", logo: "joja-logo.png" }

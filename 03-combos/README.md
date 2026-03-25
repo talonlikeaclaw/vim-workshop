@@ -18,21 +18,14 @@
 
 ## Quest #5: Fix Pierre's Config
 
-Scenario: Pierre's POS system defaulted to JojaMart settings — shop name, email, currency, and greeting are all wrong. Every bad value is wrapped in quotes.
 
-> 1. Cursor anywhere on a wrong value line
-> 2. `ci"` -> wipes inside quotes, enter insert
-> 3. Type correct value, `Esc`, next line
+Scenario: Pierre's config got Joja'd - each wrong value is in a different quote style.
+> 1. `shop_name` line: `ci"` → type `Pierre's` → `Esc`
+> 2. `owner` line: `ci'` → type `pierre` → `Esc`
+> 3. `greeting` line: `` ci` `` → type `Shop local!` → `Esc`
 
-**Tip**: Cursor doesn't have to be inside the quotes -> anywhere on the line works.
-**Tip**: Same motion every time: `ci"`, type, `Esc`. Build the muscle memory.
-
-Correct values (in order):
-
-- `Pierre's General Store`
-- `pierre@pelicantownshop.com`
-- `gold`
-- `Thanks for shopping local!`
+**Tip**: `ci` works with any quote - same verb, different delimiter.
+**Tip**: Cursor doesn't need to be inside the quotes; anywhere on the line works.
 
 ---
 
@@ -40,20 +33,14 @@ Correct values (in order):
 
 Switch files: `:e sebastian-site.js`
 
-Scenario: Sebastian's API calls have placeholder args; the real ones are needed before launch.
+Scenario: Joja hijacked Sebastian's site - wrong values in a call, an array, and an object.
 
-> 1. Cursor anywhere on the line
-> 2. `ci(` -> all args wiped, enter insert inside empty parens
-> 3. Type correct args, `Esc`, next call
+> 1. `createPost(...)` line: `ci(` → type `id, title, body` → `Esc`
+> 2. `tags` line: `ci[` → type `"farm", "events"` → `Esc`
+> 3. `config` line: `ci{` → type `theme: "default"` → `Esc`
 
-**Tip**: Doesn't matter how many args or where -> `ci(` clears them all.
-**Tip**: `c i <delimiter>` works for `"`, `(`, `[`, `{` -> same pattern every time.
-
-Correct arguments (in order):
-
-- `(authorId, "Spring Planting Tips", content)`
-- `(commentId, moderatorId)`
-- `(eventId, "Egg Festival", date)`
+**Tip**: `ci(`, `ci[`, `ci{` all work the same; wipe the inside, enter insert.
+**Tip**: Cursor doesn't need to be inside the brackets.
 
 ---
 

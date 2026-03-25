@@ -15,7 +15,7 @@ Scenario: Find the Spring winner, Summer rainy days count, and council note.
 
 > 1. `G` -> bottom (council note)
 > 2. `gg` -> top, `10j` -> Egg Festival (Spring winner)
-> 3. `/Summer` + Enter -> rainy days
+> 3. `/Summer` + `Enter` -> rainy days
 
 **Pro tip**: `Ctrl+d` / `Ctrl+u` jumps half a page down/up — faster than holding `j`/`k` on long files.
 

@@ -21,7 +21,7 @@ Scenario: Last season's seed order says `ABANDONED` - change it to `COMPLETED`.
 > 1. Use `j` to move down to `STATUS` line (`j` = down, `k` = up, `h` = left, `l` = right)
 > 2. Press `A` (end of line + Insert mode)
 > 3. Backspace `ABANDONED`, type `COMPLETED`
-> 4. `Esc` → Normal mode
+> 4. `Esc` -> Normal mode
 > 5. `:w` + Enter to save (the command prompt is at the bottom)
 
 **Stuck?** `Esc` always returns to Normal Mode. `:q!` force quits.

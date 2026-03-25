@@ -18,8 +18,8 @@
 
 ## Quest #5: Fix Pierre's Config
 
-
 Scenario: Pierre's config got Joja'd - each wrong value is in a different quote style.
+
 > 1. `shop_name` line: `ci"` → type `Pierre's` → `Esc`
 > 2. `owner` line: `ci'` → type `pierre` → `Esc`
 > 3. `greeting` line: `` ci` `` → type `Shop local!` → `Esc`
@@ -67,7 +67,7 @@ Scenario: The JojaMart server is being decommissioned. Two legacy entry blocks n
 
 > 1. Cursor on the first legacy entry (below `DEPRECATED`), `3dd` -> all 3 lines gone
 > 2. Repeat for the second `DEPRECATED` block
-> 3. Find `debug_mode`, `cc`, type `debug_mode: false`, `Esc`
+> 3. Find `debug_mode`, `cc`, type `production_mode: true`, `Esc`
 > 4. Find `eu-wast-1`, cursor on the `a`, `re` -> fix the typo
 
 **Tip**: `3dd` deletes and you stay in Normal mode. No insert needed.
@@ -83,7 +83,7 @@ Switch files: `:e traveling-cart.txt`
 Scenario: The Traveling Merchant's items weren't picked up! Change the `reserved` ones back to `available`.
 
 > 1. Navigate to first `reserved`, `cw`, type `available`, `Esc`
-> 2. Move to next `reserved`, press `.` -> replays the whole change
+> 2. Move to the start of the next `reserved`, press `.` -> replays the whole change
 > 3. Repeat for every remaining `reserved`
 
 **Tip**: `cw` changes cursor to end of word — start at the beginning of the word.
